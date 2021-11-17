@@ -5,7 +5,6 @@
 
 import requests
 import string
-import sys
 import urllib3
 
 from dictionary_traverser import DictionaryTraverser
